@@ -6,7 +6,20 @@
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	int a, b, c;
+
+	std::cout << "wpisz 3 liczby (rodzielone spacja)";
+	std::cin >> a >> b >> c;
+	std::cout << "\n";
+	
+	if (a >= b && a >= c)
+		std::cout << "najwieksza liczba to: \n" << a << "\n";
+	else if (b >= a && b >= c)
+	std::cout << "najwieksza liczba to: \n" << b << "\n";
+	else if (c >= a && c >= a)
+	std::cout << "najwieksza liczba to: \n" << c << "\n";
+		
+	
 }
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
